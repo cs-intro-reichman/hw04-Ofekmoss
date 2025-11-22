@@ -27,10 +27,10 @@ public class KeywordsDetector {
             for (String keyword : keywords) {
                 String lowerKeyword = keyword.toLowerCase();
                 if (MyString.contains(lowerSentence, lowerKeyword)) {
-                    System.out.println(keyword);
+                    System.out.println(sentence);
+                    break;
                 }
             }
-            
         }
     }
 }
